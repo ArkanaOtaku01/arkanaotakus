@@ -1563,7 +1563,7 @@ export default defineConfig({
     port: 5175,
     strictPort: true,
     watch: {
-      ignored: ['**/data/**', '**/database.json', '**/.git/**'],
+      ignored: ['**/data/**', '**/database.json', '**/.git/**', '**/*.rar', '**/*.zip', '**/*.7z', '**/*.tar.gz'],
     },
   },
   plugins: [
